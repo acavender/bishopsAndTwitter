@@ -6,10 +6,20 @@ Information on followers, tweets, following, and cost to download in Twitter_bis
 
 Archbishop Andrew Bellisario originally appeared twice. I removed him from the dataset in his capacity as Apostolic Administrator of Fairbanks and kept him as Archbishop of Anchorage-Juneau. (This was done in all spreadsheets: Bishops_and_dioceses_all.xlsx, Bishops_and_dioceses_Roman.xlsx, and Twitter_bishops.xlsx.)
 
-On July 10, 2023, I downloaded county-level election returns from Harvard's Dataverse <dataverse.harvard.edu>: <https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/VOQCHQ>.
+## July 10, 2023
 
-July 15, 2023
+I downloaded county-level election returns from Harvard's Dataverse <dataverse.harvard.edu>: <https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/VOQCHQ>. Citation: MIT Election Data and Science Lab, 2018, "County Presidential Election Returns 2000-2020", <https://doi.org/10.7910/DVN/VOQCHQ>, Harvard Dataverse, V11, UNF:6:HaZ8GWG8D2abLleXN3uEig== [fileUNF].
+
+## July 15, 2023
 
 Downloaded all-geocodes-v2020.xlsx from <https://www.census.gov/geographies/reference-files/2020/demo/popest/2020-fips.html>.
 
 I don't seem able to match districts to counties in Alaska, so I may want to look only at the lower 48. If I recall correctly, the bishops in Alaska, Hawaii, and the Virgin Islands aren't really engaged on Twitter, anyway.
+
+## Data cleaning process
+
+- Download county-level election returns for 2000-2020 as noted above.
+- Since I want to focus on the lower 48 states, remove Alaska and Hawaii from the dataset.
+- Since I'm only interested in the two major parties, remove third parties from the dataset.
+- Re-organize data in a new spreadsheet so that I have the data in my preferred columns.
+- Some Georgia and Virginia counties were broken out by type of voting as well as by party and year, so I needed to aggregate those for analysis.
