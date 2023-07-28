@@ -23,3 +23,23 @@ I don't seem able to match districts to counties in Alaska, so I may want to loo
 - Since I'm only interested in the two major parties, remove third parties from the dataset.
 - Re-organize data in a new spreadsheet so that I have the data in my preferred columns.
 - Some Georgia and Virginia counties were broken out by type of voting as well as by party and year, so I needed to aggregate those for analysis.
+  
+### Added on July 28
+
+  The above note regarding Georgia and Virginia counties is actually true of counties in 11 states:
+
+  1. Arizona
+  2. Arkansas
+  3. Georgia
+  4. Iowa
+  5. Kentucky
+  6. Maryland
+  7. North Carolina
+  8. Oklahoma
+  9. South Carolina
+  10. Utah
+  11. Virginia
+
+Fortunately, those states only broke out reports by type in 2020. For all other years, they simply reported by candidate for each county.
+
+I used a pivot table to see what the correct totals (by party) should be for counties in each of those states.
