@@ -32,7 +32,7 @@ I don't seem able to match districts to counties in Alaska, so I may want to loo
   2. Arkansas
   3. Georgia
   4. Iowa
-  5. Kentucky
+  5. Kentucky (It turns out Kentucky didn't actually report by vote type. For some reason, they called what they called "TOTAL" in other years "ELECTION DAY.")
   6. Maryland
   7. North Carolina
   8. Oklahoma
