@@ -43,3 +43,14 @@ I don't seem able to match districts to counties in Alaska, so I may want to loo
 Fortunately, those states only broke out reports by type in 2020. For all other years, they simply reported by candidate for each county.
 
 I used a pivot table to see what the correct totals (by party) should be for counties in each of those states.
+
+## August 4, 2023
+
+When I plugged data into Tableau, I found the following four geographical locations that couldn't be matched. I did with them as indicated in the table below:
+
+| Location          | Solution                                                                                                    |
+| ----------------- | ----------------------------------------------------------------------------------------------------------- |
+| Federal precinct  | This is in Rhode Island. Removed from the data set because it isn't a county.                               |
+| Maine UOCAVA      | These are uniformed service and overseas voters. Removed from the data set because they aren't in a county. |
+| Statewide writein | This is in Connecticut. Removed from the dataset because it isn't a county.                                 |
+| Kansas City       | This is in Missouri. I don't know why this was separated out. Since KC is in Jackson County, I added these numbers to that county's total.                                                                                                            |
