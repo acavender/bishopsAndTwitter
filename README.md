@@ -1,6 +1,6 @@
 # US Bishops and Twitter
 
-In this study, I analyze the Twitter activity of U.S. Catholic bishops. The first stage of building the dataset -- collecting basic information about the bishops, their dioceses, and their Twitter handles -- is complete.
+In this study, I analyze the Twitter activity of U.S. Roman Catholic bishops. The first stage of building the dataset -- collecting basic information about the bishops, their dioceses, and their Twitter handles -- is complete.
 
 Next steps include:
 
