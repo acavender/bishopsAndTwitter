@@ -54,3 +54,21 @@ When I plugged data into Tableau, I found the following four geographical locati
 | Maine UOCAVA      | These are uniformed service and overseas voters. Removed from the data set because they aren't in a county. |
 | Statewide writein | This is in Connecticut. Removed from the dataset because it isn't a county.                                 |
 | Kansas City       | This is in Missouri. I don't know why this was separated out. Since KC is in Jackson County, I added these numbers to that county's total.                                                                                                            |
+
+## November 28, 2023
+
+I've been playing with data in Tableau over the last few weeks. I was having difficulty with missing counties and the like.
+
+So I made the decision to keep the data about bishops and their number of Tweets, but started over with county election data and the list of counties in each Roman Catholic diocese.
+
+I downloaded election data from [Harvard's MIT Election Data and Science Lab](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/VOQCHQ). The citation:
+
+> MIT Election Data and Science Lab, 2018, "County Presidential Election Returns 2000-2020", [https://doi.org/10.7910/DVN/VOQCHQ](https://doi.org/10.7910/DVN/VOQCHQ), Harvard Dataverse, V11, UNF:6:HaZ8GWG8D2abLleXN3uEig== [fileUNF]
+>
+I made a copy of the dataset, then removed Alaska and Hawaii. I also created a pivot table enabling me to see election results (and votes per candidate) for each county and year.
+
+I also downloaded a fresh copy of the counties_by_diocese.csv file from [kburchfiel](https://github.com/kburchfiel/us_diocese_mapper).
+
+I made a copy of *that* dataset, removing all dioceses that aren't in the Lower 48. (So I removed Alaska, Hawaii, and the Virgin Islands.) I also corrected "DoÃ±a Ana" and "DoÃ±a Ana County" to "Doña Ana" and "Doña Ana County."
+
+I also figured out how to create groups so that I can see the dioceses without the underlying county lines. That took a little bit. Of course, I have to do it diocese by diocese, which is a little slow! But it works.
