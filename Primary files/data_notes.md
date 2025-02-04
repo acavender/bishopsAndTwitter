@@ -72,3 +72,7 @@ I also downloaded a fresh copy of the counties_by_diocese.csv file from [kburchf
 I made a copy of *that* dataset, removing all dioceses that aren't in the Lower 48. (So I removed Alaska, Hawaii, and the Virgin Islands.) I also corrected "DoÃ±a Ana" and "DoÃ±a Ana County" to "Doña Ana" and "Doña Ana County."
 
 I also figured out how to create groups so that I can see the dioceses without the underlying county lines. That took a little bit. Of course, I have to do it diocese by diocese, which is a little slow! But it works.
+
+## February 4, 2025
+
+Since Connecticut has switched from counties to planning regions, I could not get my map to display correctly in Tableau. I downloaded a 2020 shape file of counties from <https://www.census.gov/cgi-bin/geo/shapefiles/index.php>. I had to do that using the Wayback Machine, because when I tried to download directly from the site, all attempts to download threw a 403 error.
