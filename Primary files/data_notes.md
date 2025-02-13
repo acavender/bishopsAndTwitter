@@ -91,8 +91,14 @@ In a Tableau worksheet, I then set up a hierarchy using data from the table pull
 
 That gave me a lovely map of U.S. counties, color-coded by diocese.
 
-Then, using Option 3 described on this help page: [Create Territories on a Map](https://help.tableau.com/current/pro/desktop/en-us/maps_custom_territories.htm), I gave Diocese a geographic role based on county. I was then able to remove all items from the shelf except for Diocese and COLLECT([Geometry]) (if I removed the latter, Connecticut gets messed up again).
+Then, using Option 3 described on this help page: [Create Territories on a Map](https://help.tableau.com/current/pro/desktop/en-us/maps_custom_territories.htm), I gave Diocese a geographic role based on county. I was then able to remove all items from the shelf except for Diocese and COLLECT([Geometry]) (if I removed the latter, Connecticut got messed up again).
 
 I then went to the color marks card and selected Border: None. That removed the county lines, leaving me with a lovely color-coded map of the dioceses, without county lines. Helpfully, hovering over county lines *does* show the individual counties. For visual clarity, I manually changed the colors for adjoining dioceses to which Tableau had assigned the same color.
 
 Because I used the shape file, Connecticut counties and dioceses appear correctly; there are no odd gaps in the map.
+
+## February 13, 2025
+
+Built an initial election results map.
+
+Tried to find demographic religious data by county, but couldn't do that yet.
